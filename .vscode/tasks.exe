@@ -1,0 +1,34 @@
+# 1 "D:\\Document\\vscode\\.vscode\\tasks.json"
+# 1 "<built-in>" 1
+# 1 "<built-in>" 3
+# 324 "<built-in>" 3
+# 1 "<command line>" 1
+# 1 "<built-in>" 2
+# 1 "D:\\Document\\vscode\\.vscode\\tasks.json" 2
+{
+ "version": "2.0.0",
+ "tasks": [
+  {
+   "type": "cppbuild",
+   "label": "C/C++: clang-cpp.exe build active file",
+   "command": "D:\\Program Files\\LLVM\\bin\\clang-cpp.exe",
+   "args": [
+    "-g",
+    "${file}",
+    "-o",
+    "${fileDirname}\\${fileBasenameNoExtension}.exe"
+   ],
+   "options": {
+    "cwd": "${fileDirname}"
+   },
+   "problemMatcher": [
+    "$gcc"
+   ],
+   "group": {
+    "kind": "build",
+    "isDefault": true
+   },
+   "detail": "compiler: \"D:\\Program Files\\LLVM\\bin\\clang-cpp.exe\""
+  }
+ ]
+}
